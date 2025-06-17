@@ -23,7 +23,7 @@ def show():
     ### Model Overview
     The app uses XGBoost classification algorithm for prediction. 
     
-    **XGBoost**, achieved a **test F1 score of 0.94** and **train F1 score .
+    **XGBoost**, achieved a **test F1 score of 0.94** and **0.98 F1 score on train**.
 
     ---
     
