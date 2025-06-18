@@ -88,7 +88,7 @@ def show():
             
         st.markdown('---')
         custom_title('Conclusion')
-        custom_md("<li><b>Younger Passengers (Under 20)</b>: This group tends to have a higher dissatisfaction rate, as shown by the dominance of the orange bars. </li><li><b> Middle-Aged Passengers (30–50)</b>: This segment shows a relatively balanced mix, with a slight tendency towards dissatisfaction. </li><li> <b>Older Passengers (60–70)</b>: Satisfaction tends to increase in this range, with a greater proportion of blue bars (satisfied customers). </li><li> <b>Extremes (80+)</b>: These bins have fewer data points, but appear mostly dissatisfied — although the high variability suggests the sample size is small.")
+        custom_md("<li><b>Younger Passengers (Under 20)</b>: This group tends to have a higher dissatisfaction rate, as shown by the dominance of the orange bars. </li><li><b> Middle-Aged Passengers (20–40)</b>: This segment shows a relatively balanced mix, with a slight tendency towards dissatisfaction. </li><li> <b>Older Passengers (40–60)</b>: Satisfaction tends to increase in this range, with a greater proportion of blue bars (satisfied customers). </li><li> <b>Extremes (60+)</b>: These bins have fewer data points, but appear mostly dissatisfied — although the high variability suggests the sample size is small.")
         
     if eda_option == "Gender vs Satisfaction":
         fig = pl.satisfaction_gender()
